@@ -20,14 +20,12 @@
         + Presentation Layer: Cung cấp giao diện cho nhân viên nhập liệu, quản lý và xem báo cáo.
         + Business Logic Layer: Xử lý các quy tắc kinh doanh, tính toán lương, xác thực dữ liệu, tương tác với cơ sở dữ liệu.
         + Data Access Layer: Truy xuất, cập nhật dữ liệu từ các cơ sở dữ liệu.
-    
     - Giải thích lý do lựa chọn:
         + Đáp ứng yêu cầu: Kiến trúc này đáp ứng đầy đủ các yêu cầu về tính năng, hiệu suất và bảo mật của hệ thống bảng lương.
         + Tính linh hoạt: Dễ dàng mở rộng và tùy chỉnh để đáp ứng các yêu cầu mới.
         + Tính hiệu quả: Tối ưu hóa việc sử dụng tài nguyên hệ thống và giảm thiểu chi phí.
         + Tính bảo mật: Bảo vệ thông tin nhạy cảm của nhân viên.
         + Tích hợp hệ thống: Dễ dàng tích hợp với các hệ thống khác như hệ thống kế toán.
-
     - Biểu đồ package mô tả kiến trúc:
         ![Package](https://www.planttext.com/api/plantuml/png/T591RW8n3Bpd5L7kNFg02YWjgWHIoweFi8m5KRF9okiWBQWlwu4dyOMci8Ymk-Je6S-CxPn-Z-DQW2MMJbM0tx0XRRxUZJuedHuwg6jjbc2zVWjSchpwMbOkD4HzP4LLO6dhF-gcF8srzPGeYx2ns77vW8Q3So_WC3gGm8DkI_19YWVyvkI9Btsvvmm4z0GnsNOCYyz5GRmZ_gUqZ1oVJPzo91SjS4lhw5AEmHbky7qNOMGhJQTf4cLBNYo2sE1D5mfizosInCxN6OsUUyjKlUsUMVdu3oXPsWU4Qsur9hzEV-KF003__mC0)
 
@@ -68,10 +66,10 @@
         + Employee
 
 3.2. Sequence Diagram.
-    ![Sequence Diagram](https://www.planttext.com/api/plantuml/png/Z9EzJiCm4CTtFyKf4qZm0XrGfLAOg11z0YSv6gl-IEspK6O69WRU08cv4gpDq074U_W9U0MID07rWnOFaPNxtTt_VxQ_ocNV4RVabMGy8MDXg79f2aGM6wzJRWk8nYWn8RZcXK9DS8MKcHGkZ5KHSDTiM68qMICXsg06g_yDsEuPwth0wLcJtOCRd7bq16J0hRhbRHtLr64rLkDjZHwS2vTBNcnmO78IHZlMShyTnfcvww9m58soi9Xh81lAjmH8XCKoZquWkWpbNC3CSuW_NpryF8bGFkWwCiXy4Sfx3TFCXCNBPkxn3bVZ_raP6HAtHMiSquvZN18Cib0-QkZqPk_FUX8nXjBXJ-mFpGogjJM7RjAA2odq17YQMdIkWJjbdPCU33MXtSdkSEjZ9ROBhqazCCJzacEkfw2vGk0w1PuarGqbq5x5QFVgRn9Jf4hP0V5h9Ehg4FhLjtuTtm000F__0m00)
+![Sequence Diagram](https://www.planttext.com/api/plantuml/png/Z9EzJiCm4CTtFyKf4qZm0XrGfLAOg11z0YSv6gl-IEspK6O69WRU08cv4gpDq074U_W9U0MID07rWnOFaPNxtTt_VxQ_ocNV4RVabMGy8MDXg79f2aGM6wzJRWk8nYWn8RZcXK9DS8MKcHGkZ5KHSDTiM68qMICXsg06g_yDsEuPwth0wLcJtOCRd7bq16J0hRhbRHtLr64rLkDjZHwS2vTBNcnmO78IHZlMShyTnfcvww9m58soi9Xh81lAjmH8XCKoZquWkWpbNC3CSuW_NpryF8bGFkWwCiXy4Sfx3TFCXCNBPkxn3bVZ_raP6HAtHMiSquvZN18Cib0-QkZqPk_FUX8nXjBXJ-mFpGogjJM7RjAA2odq17YQMdIkWJjbdPCU33MXtSdkSEjZ9ROBhqazCCJzacEkfw2vGk0w1PuarGqbq5x5QFVgRn9Jf4hP0V5h9Ehg4FhLjtuTtm000F__0m00)
 
 3.3. Class Diagram. 
-    ![Class Diagram](https://www.planttext.com/api/plantuml/png/T5DBRi8m4Dtd55u6gLm0HH6bi2ke4bBtGpm2g_wazWGfgdg4dgAhNg6ewg8duGIzGWr9J0pK6zipp_FUFDk_k--n8x1KAPaK4fnZCrLAKoEoB9jf4bJd-Kl23aDeOe8twoLPeTTCWy8eK4AjKDCSQMDYg08X_NpBkKNdejGAzDFYl18KXQaqBIgrGjjajaPmLfKS21_wF6b7STmDUc27D8zuEoWqspFin0kP8laJ0TXfkxcgQv2y9grlaI9ltiIZEDYJVP78YtOvkiAAaeJHKNoDD3sbqbRmoXY9e9bmZo05lsv3aBQi7Q7ockwC9cjaa7Gl76NTXUSCsvNhPQEsylX-NSyzRsXNA0rFg2lOjzcYCbiCsEPH3Vvdz0P44PSUEmiSms5-vls85PlzxaspF6axFs32WH5xhlQVxvh9dwyOSgtC1tZC63K__90_0000__y30000)
+![Class Diagram](https://www.planttext.com/api/plantuml/png/T5DBRi8m4Dtd55u6gLm0HH6bi2ke4bBtGpm2g_wazWGfgdg4dgAhNg6ewg8duGIzGWr9J0pK6zipp_FUFDk_k--n8x1KAPaK4fnZCrLAKoEoB9jf4bJd-Kl23aDeOe8twoLPeTTCWy8eK4AjKDCSQMDYg08X_NpBkKNdejGAzDFYl18KXQaqBIgrGjjajaPmLfKS21_wF6b7STmDUc27D8zuEoWqspFin0kP8laJ0TXfkxcgQv2y9grlaI9ltiIZEDYJVP78YtOvkiAAaeJHKNoDD3sbqbRmoXY9e9bmZo05lsv3aBQi7Q7ockwC9cjaa7Gl76NTXUSCsvNhPQEsylX-NSyzRsXNA0rFg2lOjzcYCbiCsEPH3Vvdz0P44PSUEmiSms5-vls85PlzxaspF6axFs32WH5xhlQVxvh9dwyOSgtC1tZC63K__90_0000__y30000)
 
 4. Phân tích ca sử dụng Maintain Timecard.
 4.1. Xác định các lớp phân tích.
@@ -84,6 +82,6 @@
         + Employee
         + Payroll
 4.2. Sequence Diagram.
-    ![Sequence Diagram](https://www.planttext.com/api/plantuml/png/T5DBRi8m4Dtd55u6gLm0HH6bi2ke4bBtGpm2g_wazWGfgdg4dgAhNg6ewg8duGIzGWr9J0pK6zipp_FUFDk_k--n8x1KAPaK4fnZCrLAKoEoB9jf4bJd-Kl23aDeOe8twoLPeTTCWy8eK4AjKDCSQMDYg08X_NpBkKNdejGAzDFYl18KXQaqBIgrGjjajaPmLfKS21_wF6b7STmDUc27D8zuEoWqspFin0kP8laJ0TXfkxcgQv2y9grlaI9ltiIZEDYJVP78YtOvkiAAaeJHKNoDD3sbqbRmoXY9e9bmZo05lsv3aBQi7Q7ockwC9cjaa7Gl76NTXUSCsvNhPQEsylX-NSyzRsXNA0rFg2lOjzcYCbiCsEPH3Vvdz0P44PSUEmiSms5-vls85PlzxaspF6axFs32WH5xhlQVxvh9dwyOSgtC1tZC63K__90_0000__y30000)
+![Sequence Diagram](https://www.planttext.com/api/plantuml/png/T5DBRi8m4Dtd55u6gLm0HH6bi2ke4bBtGpm2g_wazWGfgdg4dgAhNg6ewg8duGIzGWr9J0pK6zipp_FUFDk_k--n8x1KAPaK4fnZCrLAKoEoB9jf4bJd-Kl23aDeOe8twoLPeTTCWy8eK4AjKDCSQMDYg08X_NpBkKNdejGAzDFYl18KXQaqBIgrGjjajaPmLfKS21_wF6b7STmDUc27D8zuEoWqspFin0kP8laJ0TXfkxcgQv2y9grlaI9ltiIZEDYJVP78YtOvkiAAaeJHKNoDD3sbqbRmoXY9e9bmZo05lsv3aBQi7Q7ockwC9cjaa7Gl76NTXUSCsvNhPQEsylX-NSyzRsXNA0rFg2lOjzcYCbiCsEPH3Vvdz0P44PSUEmiSms5-vls85PlzxaspF6axFs32WH5xhlQVxvh9dwyOSgtC1tZC63K__90_0000__y30000)
 4.3. Class Diagram. 
-    ![Class Diagram](https://www.planttext.com/api/plantuml/png/T5DBRi8m4Dtd55u6gLm0HH6bi2ke4bBtGpm2g_wazWGfgdg4dgAhNg6ewg8duGIzGWr9J0pK6zipp_FUFDk_k--n8x1KAPaK4fnZCrLAKoEoB9jf4bJd-Kl23aDeOe8twoLPeTTCWy8eK4AjKDCSQMDYg08X_NpBkKNdejGAzDFYl18KXQaqBIgrGjjajaPmLfKS21_wF6b7STmDUc27D8zuEoWqspFin0kP8laJ0TXfkxcgQv2y9grlaI9ltiIZEDYJVP78YtOvkiAAaeJHKNoDD3sbqbRmoXY9e9bmZo05lsv3aBQi7Q7ockwC9cjaa7Gl76NTXUSCsvNhPQEsylX-NSyzRsXNA0rFg2lOjzcYCbiCsEPH3Vvdz0P44PSUEmiSms5-vls85PlzxaspF6axFs32WH5xhlQVxvh9dwyOSgtC1tZC63K__90_0000__y30000)
+![Class Diagram](https://www.planttext.com/api/plantuml/png/T5DBRi8m4Dtd55u6gLm0HH6bi2ke4bBtGpm2g_wazWGfgdg4dgAhNg6ewg8duGIzGWr9J0pK6zipp_FUFDk_k--n8x1KAPaK4fnZCrLAKoEoB9jf4bJd-Kl23aDeOe8twoLPeTTCWy8eK4AjKDCSQMDYg08X_NpBkKNdejGAzDFYl18KXQaqBIgrGjjajaPmLfKS21_wF6b7STmDUc27D8zuEoWqspFin0kP8laJ0TXfkxcgQv2y9grlaI9ltiIZEDYJVP78YtOvkiAAaeJHKNoDD3sbqbRmoXY9e9bmZo05lsv3aBQi7Q7ockwC9cjaa7Gl76NTXUSCsvNhPQEsylX-NSyzRsXNA0rFg2lOjzcYCbiCsEPH3Vvdz0P44PSUEmiSms5-vls85PlzxaspF6axFs32WH5xhlQVxvh9dwyOSgtC1tZC63K__90_0000__y30000)
