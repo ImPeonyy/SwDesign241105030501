@@ -87,4 +87,27 @@
 
 
 4.3. Class Diagram. 
-![Class Diagram](https://www.planttext.com/api/plantuml/png/R9BFQiCm3CRlVWgJOo5XlVPKjcviiCEWetUbqJQ3_nHRXfRH9-kXZxHNc1BifCGrnk2Vq2Vfi_ykrtKWy1ID5diD8SXjR8sYJsNm2NptuhoHlqBogkKNNzwwbToIL_OxGHLse1NJH-SqWXLdaPLEWN3AtaVlqT8625UoFnCtS7nrqOSFzBoLOwcDYwt6IUdP7BGx8OvQc43HZGM3CuG6b9wn7oxuhdZEibQUVAn52HIr1kEAST1s1Gk3fuHt8WGKmqoO784UFBbjxyx3r7KoMIIl6MIlRb3E4QEFrRBg0zL3qoogARxcvlkVy0y00F__0m00)
+![Class Diagram]([https://www.planttext.com/api/plantuml/png/R9BFQiCm3CRlVWgJOo5XlVPKjcviiCEWetUbqJQ3_nHRXfRH9-kXZxHNc1BifCGrnk2Vq2Vfi_ykrtKWy1ID5diD8SXjR8sYJsNm2NptuhoHlqBogkKNNzwwbToIL_OxGHLse1NJH-SqWXLdaPLEWN3AtaVlqT8625UoFnCtS7nrqOSFzBoLOwcDYwt6IUdP7BGx8OvQc43HZGM3CuG6b9wn7oxuhdZEibQUVAn52HIr1kEAST1s1Gk3fuHt8WGKmqoO784UFBbjxyx3r7KoMIIl6MIlRb3E4QEFrRBg0zL3qoogARxcvlkVy0y00F__0m00](https://www.planttext.com/api/plantuml/png/R9BFQW8n4CRlUOgmHs6blNeIjSM21y7YVNIdRI1_99c08dqo3pwIh-3iajsLpOOGcDyatsI-v76xpmE1fsYqE6e8GUxYmIZwLWQNuAjFvusy2icZb3ySV5KpkIElx6-2Akn1AwOBvpI25V-YLRe4mlxqCNgFbbP0E9FrchY1yzf57xReUIh7KYiN3nfxfGzpqkw2s6bX0jbjB1WS83IWz83zSS6DuZxpMctdNIrA8AlL69UrWxRAM6Wy9Hp9450C0s5o1BhnvFLwoSwo77aYaIFUrzesagrbsbXqzXRlHPqetgRJIT7dvznJ_K6U0000__y30000))
+
+5. Hợp nhất.
+![Class Diagram](https://www.planttext.com/api/plantuml/png/h5JRIiD047tFLuGy2YtwMaIgLb6efH3nVPECTd4lPMSMBEAN-U0d-GjEOh9Diwq86a9Wpypcp3adsS_tZocISEIrIaeb4DCS59Iq51iDXkw0LhQwjawdhqdAroXzvCLjDKbpSj8yjU2wtuwJT2wHJhyxpjeMYGz2ITvuOQq2OPAtf6NSuRgqXfnLWGwRSQ3QQHgmQo4LhywhoW7Ye5W8yxmG6WQmA4lh3IsyBi25MfZfIg-LtG24EQ058kacVlVwBxFEWBW5-oCTYcGqsklTJ_sThavdxWijwLvgk1Jk5q4VJZ7V8C5sT-cTO_QP87QdVWRzBpVMEro2urlM_ioiBnJya_TG6pp0LamubwmpvkgK1ovgWOYh-KqYEM2g2CF6K_vcume9yiFGoP9GZIVzyLexER8ueYI6-j7koPJBtJe9zcOdMLt8ZiVZesnRdxAc-ZZu0W00__y30000)
+
+- SubmitTimeCardForm:
+    Nhiệm vụ: Cung cấp giao diện cho nhân viên để nhập thông tin thời gian làm việc và kiểm tra tính hợp lệ.
+
+- System:
+    Nhiệm vụ: Xử lý logic nghiệp vụ cho việc tạo, lưu trữ và xác thực thời gian làm việc.
+
+- Employee:
+    Nhiệm vụ: Quản lý thông tin của nhân viên và gửi yêu cầu liên quan đến thời gian làm việc.
+              Lưu trữ thông tin về phương thức thanh toán đã chọn và các thông tin liên quan.
+  
+- TimeCard:
+    Nhiệm vụ: Lưu trữ thông tin về thời gian làm việc và thực hiện xác thực.
+
+- SelectPaymentMethodForm:
+    Nhiệm vụ: Cung cấp giao diện cho nhân viên để chọn phương thức thanh toán và kiểm tra tính hợp lệ.
+  
+- PaymentMethodControl:
+    Nhiệm vụ: Xử lý logic liên quan đến lựa chọn phương thức thanh toán và cập nhật thông tin cho nhân viên.
+  
