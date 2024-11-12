@@ -101,8 +101,8 @@ Entity Classes:
 
 ![CD](https://www.planttext.com/api/plantuml/png/Z5DBJiCm4Dtd55PM1T55jnMgMZKWLKAYWXEuza0jsPxWJr65E1aBZiGLcAHfSDAcOXDvnlFUctcU_7nzpttWBaIZCw6vzso9nYZl5LgGTwRKk0TW7nbZq0IhOigUWrFsbPAM6qX2WJPm4PHzmJRxcJNCw-Z4bdjuT1BSFJfJquejeeS5WT2EhgPiXqfIMYfVQhvV4LEIzLjyh-6heisUvrzI9mwr1bUhb0u5UFy4Rn5yI1Y50nwW0nrXhK3AVsMnb0DbnKrpARi82He649Sxh_jjAbDhemze3eEHnSdDHcbDfuMKZaPCBcXe6KMWr8FouNPz26T7-eAQdhBgctHog3bwLfqllNVfbAWuC6uq3Cn30dn3GStfWA2mE_6ZWwWUcdTgUWLzbuVSFRlB-IHdu_6CvTTvp_ZiT4FRuaa-j5_PqDxzL-WSf2_NcjY5TZMQjylcO2NzqBy0003__mC0)
 
-Code java mô phỏng ca sử dụng Maintain Timecard.
-
+## Code java mô phỏng ca sử dụng Maintain Timecard.
+```package maintain;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -334,3 +334,5 @@ public class Maintain {
         timecard.submit();
     }
 }
+```
+
