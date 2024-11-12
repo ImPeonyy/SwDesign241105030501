@@ -103,6 +103,7 @@ Entity Classes:
 
 Code java mô phỏng ca sử dụng Maintain Timecard.
 
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -205,8 +206,7 @@ class Timecard {
     }
 }
 
-
-Class quản lý Project Management Database
+ Class quản lý Project Management Database
 class ProjectManagementDB {
     private boolean isAvailable;
     private List<Integer> chargeNumbers;
@@ -233,7 +233,6 @@ class DatabaseUnavailableException extends Exception {
         super(message);
     }
 }
-
 
 Main class để demo với user input
 public class Maintain {
